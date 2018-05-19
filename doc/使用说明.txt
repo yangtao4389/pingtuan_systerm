@@ -1,0 +1,72 @@
+admin中可以自定义一些配置，这些配置，提取方式用的是config  看thinkphp文档去查看该函数的具体用法
+	config($config);
+在common/controller/base中定义的
+
+
+新增菜单里面的 小图标 使用的是bootstrap3中的icon  填具体的icon-... 就行 具体的百度小图标就好
+
+设置模板的时候，先分为头部，尾部，
+中间内容的填充是看iframe这个标签 admin/view/index/index.html中
+<iframe src="/admin/index/main" id="contentframe" name="main" width="100%" height="100%" scrolling="yes"
+                    frameborder="no"></iframe>
+
+
+模板里面的函数调用路径  application\admin\view\public\edit.html
+{:widget('common/Form/show',array($field,$info))}
+就可以找到common Form 下面的show模板里面的函数 然后执行
+这里没理清楚 好像是直接找的common/widget/Form这个类  应该去看一下模板函数中的widget
+错了 widget 应该就是自己定义的
+那为啥可以直接调用函数呢？
+确定了，是直接调用edit模板，widget函数，common/view/show
+
+zhi_divcontent  里面的图片是int，int分了另外一张表 还有md5啥的
+上传图片用的  百度图片上传  组件
+application\common\view\default\form\image.html
+插件需要配置具体的上传路径，在插件的js中public\plugs\webuploader\webuploader.custom.js
+这里面有一个server: UPLOAD_URL+'upload.html?flash=1', // 文件接收服务端。  这里配置的上传路径
+而具体的函数实现application\common\controller\Upload.php
+
+
+application\common\view\default\form\show.html
+这里面的checkbox   是通过逗号作为分割符，然后再去循环遍历选中的内容，从而页面格式化出来。
+
+
+百度echart 扩展组件
+application\common\view\default\chart\bartickalign.html
+application\common\widget\Chart.php  这里设置数据
+https://www.bilibili.com/video/av18171985/index_3.html?t=3172#page=7
+这里的14分往前 有教使用的代码 可以参考一下
+D:\www\pingtuan_systerm\application\admin\controller\Datachart.php
+
+
+搜索的时候 为了用户体验  实现了  输入字母 自动提示功能
+比方member里面的搜索
+D:\www\pingtuan_systerm\application\admin\controller\User.php
+打开看其中调用的是   $mod = model('Member');
+                   $searchbar = $mod->searchbar;
+
+D:\www\pingtuan_systerm\application\common\model\Member.php
+    public $searchbar = array(
+        array('name'=>'uid', 'title'=>'用户名', 'type'=>'autoselect', 'help'=>'', 'option'=>'/admin/autoinfo/getuserlist'),
+    );
+D:\www\pingtuan_systerm\application\common\view\default\form\autoselect.html
+
+
+使用表单详解
+D:\www\pingtuan_systerm\application\admin\controller\Diytag.php
+ $data = input('param.');// $_REQUEST  input属于thinkphp自带的，类似于$_REQUEST
+ $mod = model("DiyTag");  直接访问model类
+ $this->setMeta('添加编辑标签');   设置标题名
+
+
+
+
+D:\www\pingtuan_systerm\public\js\core.js
+里面有说 对于有些css样式 执行异步提交
+
+
+
+
+
+
+

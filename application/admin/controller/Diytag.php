@@ -16,14 +16,14 @@ class Diytag extends  Base
    {
        $tagname = input('tagname', '');
        $status = input('status', -1);
-       $where = [];
+       $where = [];  // where这个为thinkphp自带的一个查询筛选
        if($tagname){
            $where['tagname'] = ['like', "%$tagname%"];
        }
        if($status !=-1){
            $where['status'] = $status;
        }
-       $list = Db::name('diytag')->where($where)->order("id desc")->paginate(10);
+       $list = Db::name('diytag')->where($where)->order("id desc")->paginate(10);  //paginate是thinkphp自带的分页
        $mod = model("DiyTag");
        $searchbar = $mod->searchbar;
        $data = array(
@@ -42,21 +42,21 @@ class Diytag extends  Base
     }
     public function add()
     {
-        $data = input('param.');// $_REQUEST
+        $data = input('param.');// $_REQUEST  类似于$_REQUEST
         $id = input('id', 0);
-        $mod = model("DiyTag");
+        $mod = model("DiyTag");  // 取model的数据
         if(IS_POST){
             if(!$data['tagname']){
                 return $this->error('标签名不能为空');
             }
             $mod->autosave('diytag', $data);
-            return $this->success('保存成功','','parent_reload');
+            return $this->success('保存成功','','parent_reload');  // 第二个参数为跳转链接 如果在当前页面跳转 就不用 
 
         }
         $keylist = $mod->addfield;
         $info=[];
         if($id>0){
-            $info = Db::name('diytag')->where('id', $id)->find();
+            $info = Db::name('diytag')->where('id', $id)->find();  // find() 加上就不是直接一个对象
         }
         $data = array(
             'info'=>$info,

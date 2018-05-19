@@ -428,3 +428,4197 @@
   'css' => 'roboto-webfont.css',
 )
 [ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:17+08:00 ] 127.0.0.1 127.0.0.1 GET /func
+[ info ] local.zhiyun.com/func [运行时间：0.066009s][吞吐率：15.15req/s] [内存消耗：1,587.67kb] [文件加载：50]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'func',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->func[ D:\www\pingtuan_systerm\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/index\view\index\func.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+  4 => 'funlist',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.035573s][吞吐率：28.11req/s] [内存消耗：1,125.63kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/func',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] local.zhiyun.com/admin [运行时间：0.052148s][吞吐率：19.18req/s] [内存消耗：1,499.76kb] [文件加载：52]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login.html
+[ info ] local.zhiyun.com/admin/login.html [运行时间：0.072506s][吞吐率：13.79req/s] [内存消耗：1,604.38kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ info ] local.zhiyun.com/admin/index/verify.html [运行时间：0.042816s][吞吐率：23.36req/s] [内存消耗：1,479.48kb] [文件加载：50]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\www\pingtuan_systerm\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login
+[ info ] local.zhiyun.com/admin/login [运行时间：0.074639s][吞吐率：13.40req/s] [内存消耗：2,431.62kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.zhiyun.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'ekun',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] local.zhiyun.com/admin/index/index.html [运行时间：0.182230s][吞吐率：5.49req/s] [内存消耗：2,210.09kb] [文件加载：59]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:09:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main
+[ info ] local.zhiyun.com/admin/index/main [运行时间：0.153712s][吞吐率：6.51req/s] [内存消耗：2,132.38kb] [文件加载：58]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:11:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ info ] local.zhiyun.com/admin/index/main.html [运行时间：0.070307s][吞吐率：14.22req/s] [内存消耗：2,002.67kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/clear.html
+[ info ] local.zhiyun.com/admin/index/clear.html [运行时间：0.187329s][吞吐率：5.34req/s] [内存消耗：2,147.88kb] [文件加载：60]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->clear[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\public\edit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'keyList',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:11:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.218434s][吞吐率：4.58req/s] [内存消耗：2,527.96kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:11:41+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.026178s][吞吐率：38.20req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.045880s][吞吐率：21.80req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:11:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] local.zhiyun.com/admin/menu/index.html [运行时间：0.144951s][吞吐率：6.90req/s] [内存消耗：2,295.43kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menu->index[ D:\www\pingtuan_systerm\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\menu\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.161038s][吞吐率：6.21req/s] [内存消耗：2,384.95kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:43+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.035094s][吞吐率：28.49req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:44+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.032100s][吞吐率：31.15req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/user/index.html
+[ info ] local.zhiyun.com/admin/user/index.html [运行时间：0.299725s][吞吐率：3.34req/s] [内存消耗：2,627.45kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\www\pingtuan_systerm\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\user\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'user_type',
+  4 => 'list',
+  5 => 'page',
+  6 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\autoselect.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.039232s][吞吐率：25.49req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.037825s][吞吐率：26.44req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png
+[ info ] local.zhiyun.com/public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png [运行时间：0.042751s][吞吐率：23.39req/s] [内存消耗：1,126.57kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'plugs',
+    2 => 'autocomplete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/public/plugs/autocomplete/css/jquery-ui.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'images',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/autoinfo/getuserlist?id=
+[ info ] local.zhiyun.com/admin/autoinfo/getuserlist?id= [运行时间：0.151319s][吞吐率：6.61req/s] [内存消耗：2,031.54kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'autoinfo',
+    2 => 'getuserlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Autoinfo->getUserlist[ D:\www\pingtuan_systerm\application\admin\controller\Autoinfo.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/group/index.html
+[ info ] local.zhiyun.com/admin/group/index.html [运行时间：0.228150s][吞吐率：4.38req/s] [内存消耗：2,614.38kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Group->index[ D:\www\pingtuan_systerm\application\admin\controller\Group.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\group\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'page',
+  5 => 'type',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/group/access.html
+[ info ] local.zhiyun.com/admin/group/access.html [运行时间：0.326927s][吞吐率：3.06req/s] [内存消耗：2,627.88kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'group',
+    2 => 'access',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Group->access[ D:\www\pingtuan_systerm\application\admin\controller\Group.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\group\access.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'page',
+  5 => 'type',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/user/index.html
+[ info ] local.zhiyun.com/admin/user/index.html [运行时间：0.136401s][吞吐率：7.33req/s] [内存消耗：2,491.47kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\www\pingtuan_systerm\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\user\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'user_type',
+  4 => 'list',
+  5 => 'page',
+  6 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\autoselect.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.035824s][吞吐率：27.91req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:18:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.041218s][吞吐率：24.26req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:19:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png
+[ info ] local.zhiyun.com/public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png [运行时间：0.349293s][吞吐率：2.86req/s] [内存消耗：1,126.57kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'plugs',
+    2 => 'autocomplete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/public/plugs/autocomplete/css/jquery-ui.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'images',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T20:19:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/autoinfo/getuserlist?id=
+[ info ] local.zhiyun.com/admin/autoinfo/getuserlist?id= [运行时间：1.473230s][吞吐率：0.68req/s] [内存消耗：2,031.54kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'autoinfo',
+    2 => 'getuserlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Autoinfo->getUserlist[ D:\www\pingtuan_systerm\application\admin\controller\Autoinfo.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.167685s][吞吐率：5.96req/s] [内存消耗：2,384.95kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.032437s][吞吐率：30.83req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:12:56+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.048947s][吞吐率：20.43req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:12:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/index.html
+[ info ] local.zhiyun.com/admin/config/index.html [运行时间：0.281991s][吞吐率：3.55req/s] [内存消耗：2,660.20kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->index[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'group',
+  4 => 'config_type',
+  5 => 'page',
+  6 => 'group_id',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/index/group/1.html
+[ info ] local.zhiyun.com/admin/config/index/group/1.html [运行时间：0.147771s][吞吐率：6.77req/s] [内存消耗：2,509.52kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'group' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->index[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'group',
+  4 => 'config_type',
+  5 => 'page',
+  6 => 'group_id',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/index/group/99.html
+[ info ] local.zhiyun.com/admin/config/index/group/99.html [运行时间：0.163510s][吞吐率：6.12req/s] [内存消耗：2,500.40kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F1.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/index/group/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'group' => '99',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->index[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'group',
+  4 => 'config_type',
+  5 => 'page',
+  6 => 'group_id',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/index/group/1.html
+[ info ] local.zhiyun.com/admin/config/index/group/1.html [运行时间：0.167482s][吞吐率：5.97req/s] [内存消耗：2,509.59kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/index/group/99.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'group' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->index[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'group',
+  4 => 'config_type',
+  5 => 'page',
+  6 => 'group_id',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/index/group/99.html
+[ info ] local.zhiyun.com/admin/config/index/group/99.html [运行时间：0.155262s][吞吐率：6.44req/s] [内存消耗：2,500.40kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F1.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/index/group/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'group' => '99',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->index[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'group',
+  4 => 'config_type',
+  5 => 'page',
+  6 => 'group_id',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.236867s][吞吐率：4.22req/s] [内存消耗：2,385.11kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/index/group/99.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:51+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.040848s][吞吐率：24.48req/s] [内存消耗：1,126.11kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:51+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.049284s][吞吐率：20.29req/s] [内存消耗：1,126.12kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group/id/99.html
+[ info ] local.zhiyun.com/admin/config/group/id/99.html [运行时间：0.147128s][吞吐率：6.80req/s] [内存消耗：2,370.41kb] [文件加载：60]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '99',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.180684s][吞吐率：5.53req/s] [内存消耗：2,384.99kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:59+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.047237s][吞吐率：21.17req/s] [内存消耗：1,126.11kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:25:59+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.055944s][吞吐率：17.88req/s] [内存消耗：1,126.11kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group/id/99.html
+[ info ] local.zhiyun.com/admin/config/group/id/99.html [运行时间：0.139743s][吞吐率：7.16req/s] [内存消耗：2,370.33kb] [文件加载：60]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '99',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.165304s][吞吐率：6.05req/s] [内存消耗：2,384.99kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.046459s][吞吐率：21.52req/s] [内存消耗：1,126.11kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group/id/99.html
+[ info ] local.zhiyun.com/admin/config/group/id/99.html [运行时间：0.179040s][吞吐率：5.59req/s] [内存消耗：2,370.33kb] [文件加载：60]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '99',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] local.zhiyun.com/admin/menu/index.html [运行时间：0.132786s][吞吐率：7.53req/s] [内存消耗：2,143.05kb] [文件加载：59]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex%2Fgroup%2F99.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menu->index[ D:\www\pingtuan_systerm\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\menu\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.182227s][吞吐率：5.49req/s] [内存消耗：2,384.89kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:46+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.044464s][吞吐率：22.49req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:46+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.040664s][吞吐率：24.59req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group/id/99.html
+[ info ] local.zhiyun.com/admin/config/group/id/99.html [运行时间：0.132915s][吞吐率：7.52req/s] [内存消耗：2,370.35kb] [文件加载：60]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '99',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] local.zhiyun.com/admin/menu/index.html [运行时间：0.161779s][吞吐率：6.18req/s] [内存消耗：2,142.91kb] [文件加载：59]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menu->index[ D:\www\pingtuan_systerm\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\menu\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.171466s][吞吐率：5.83req/s] [内存消耗：2,384.89kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:54+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.046260s][吞吐率：21.62req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:54+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.047113s][吞吐率：21.23req/s] [内存消耗：1,126.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/index.html
+[ info ] local.zhiyun.com/admin/config/index.html [运行时间：0.205624s][吞吐率：4.86req/s] [内存消耗：2,520.67kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->index[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'group',
+  4 => 'config_type',
+  5 => 'page',
+  6 => 'group_id',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/group.html
+[ info ] local.zhiyun.com/admin/config/group.html [运行时间：0.214603s][吞吐率：4.66req/s] [内存消耗：2,384.93kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'group',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->group[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\group.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'id',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\image.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:56+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg
+[ info ] local.zhiyun.com/uploads/picture/20180103/a055a7fb310b2aa09897d0ebd1491c1b.jpg [运行时间：0.045817s][吞吐率：21.83req/s] [内存消耗：1,126.05kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:26:56+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png
+[ info ] local.zhiyun.com/uploads/picture/20180103/88cdcd3dec81400e161af2d1fd6ddaa1.png [运行时间：0.046100s][吞吐率：21.69req/s] [内存消耗：1,126.05kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20180103',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:27:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/config/index.html
+[ info ] local.zhiyun.com/admin/config/index.html [运行时间：0.235787s][吞吐率：4.24req/s] [内存消耗：2,520.70kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/config/group.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Config->index[ D:\www\pingtuan_systerm\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\config\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'group',
+  4 => 'config_type',
+  5 => 'page',
+  6 => 'group_id',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:28:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ info ] local.zhiyun.com/admin/index/main.html [运行时间：0.110489s][吞吐率：9.05req/s] [内存消耗：2,002.87kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:28:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] local.zhiyun.com/admin/menu/index.html [运行时间：0.116579s][吞吐率：8.58req/s] [内存消耗：2,143.00kb] [文件加载：59]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fconfig%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menu->index[ D:\www\pingtuan_systerm\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\menu\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:28:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/add/pid/0.html
+[ info ] local.zhiyun.com/admin/menu/add/pid/0.html [运行时间：0.267178s][吞吐率：3.74req/s] [内存消耗：2,189.42kb] [文件加载：59]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/menu/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menu->add[ D:\www\pingtuan_systerm\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\menu\edit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'info',
+  4 => 'Menus',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:38:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ info ] local.zhiyun.com/admin/index/main.html [运行时间：0.078021s][吞吐率：12.82req/s] [内存消耗：2,002.86kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:38:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/clear.html
+[ info ] local.zhiyun.com/admin/index/clear.html [运行时间：0.078307s][吞吐率：12.77req/s] [内存消耗：2,012.95kb] [文件加载：58]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->clear[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\public\edit.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'keyList',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T21:38:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ info ] local.zhiyun.com/admin/index/main.html [运行时间：0.077787s][吞吐率：12.86req/s] [内存消耗：2,002.79kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/index.html
+[ info ] local.zhiyun.com/admin/channel/index.html [运行时间：0.162205s][吞吐率：6.17req/s] [内存消耗：2,212.23kb] [文件加载：60]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->index[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:01:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/contentlist.html
+[ info ] local.zhiyun.com/admin/channel/contentlist.html [运行时间：0.215424s][吞吐率：4.64req/s] [内存消耗：2,615.52kb] [文件加载：68]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'contentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->contentlist[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\contentlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'searchbar',
+  4 => 'list',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/contentlist.html
+[ info ] local.zhiyun.com/admin/channel/contentlist.html [运行时间：0.162291s][吞吐率：6.16req/s] [内存消耗：2,483.32kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'contentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->contentlist[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\contentlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'searchbar',
+  4 => 'list',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/index.html
+[ info ] local.zhiyun.com/admin/channel/index.html [运行时间：0.120576s][吞吐率：8.29req/s] [内存消耗：2,084.59kb] [文件加载：58]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->index[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/contentlist.html
+[ info ] local.zhiyun.com/admin/channel/contentlist.html [运行时间：0.193272s][吞吐率：5.17req/s] [内存消耗：2,483.32kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'contentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->contentlist[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\contentlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'searchbar',
+  4 => 'list',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/index.html
+[ info ] local.zhiyun.com/admin/channel/index.html [运行时间：0.102673s][吞吐率：9.74req/s] [内存消耗：2,084.59kb] [文件加载：58]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->index[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/contentlist.html
+[ info ] local.zhiyun.com/admin/channel/contentlist.html [运行时间：0.197108s][吞吐率：5.07req/s] [内存消耗：2,483.32kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'contentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->contentlist[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\contentlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'searchbar',
+  4 => 'list',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/contentlist.html
+[ info ] local.zhiyun.com/admin/channel/contentlist.html [运行时间：0.190874s][吞吐率：5.24req/s] [内存消耗：2,483.32kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'contentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->contentlist[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\contentlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'searchbar',
+  4 => 'list',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/index.html
+[ info ] local.zhiyun.com/admin/channel/index.html [运行时间：0.124001s][吞吐率：8.06req/s] [内存消耗：2,084.59kb] [文件加载：58]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->index[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/diytag/index.html
+[ info ] local.zhiyun.com/admin/diytag/index.html [运行时间：0.250511s][吞吐率：3.99req/s] [内存消耗：2,577.74kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'diytag',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Diytag->index[ D:\www\pingtuan_systerm\application\admin\controller\Diytag.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\diytag\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'searchbar',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T22:02:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/channel/contentlist.html
+[ info ] local.zhiyun.com/admin/channel/contentlist.html [运行时间：0.185214s][吞吐率：5.40req/s] [内存消耗：2,483.32kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'channel',
+    2 => 'contentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Channel->contentlist[ D:\www\pingtuan_systerm\application\admin\controller\Channel.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\channel\contentlist.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'searchbar',
+  4 => 'list',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/group/index.html
+[ info ] local.zhiyun.com/admin/group/index.html [运行时间：1.259985s][吞吐率：0.79req/s] [内存消耗：2,614.40kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Group->index[ D:\www\pingtuan_systerm\application\admin\controller\Group.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\group\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'page',
+  5 => 'type',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/group/access.html
+[ info ] local.zhiyun.com/admin/group/access.html [运行时间：0.218518s][吞吐率：4.58req/s] [内存消耗：2,627.98kb] [文件加载：66]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'group',
+    2 => 'access',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Group->access[ D:\www\pingtuan_systerm\application\admin\controller\Group.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\group\access.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'page',
+  5 => 'type',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/user/index.html
+[ info ] local.zhiyun.com/admin/user/index.html [运行时间：0.311693s][吞吐率：3.21req/s] [内存消耗：2,621.35kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\www\pingtuan_systerm\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\user\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'user_type',
+  4 => 'list',
+  5 => 'page',
+  6 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\autoselect.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:03+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.129434s][吞吐率：7.73req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:03+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.036503s][吞吐率：27.39req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/diytag/index.html
+[ info ] local.zhiyun.com/admin/diytag/index.html [运行时间：0.205931s][吞吐率：4.86req/s] [内存消耗：2,444.61kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'diytag',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Diytag->index[ D:\www\pingtuan_systerm\application\admin\controller\Diytag.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\diytag\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'searchbar',
+  5 => 'page',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\show.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/autoinfo/getuserlist?id=
+[ info ] local.zhiyun.com/admin/autoinfo/getuserlist?id= [运行时间：0.147972s][吞吐率：6.76req/s] [内存消耗：2,031.52kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'autoinfo',
+    2 => 'getuserlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Autoinfo->getUserlist[ D:\www\pingtuan_systerm\application\admin\controller\Autoinfo.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/diycontent/index.html
+[ info ] local.zhiyun.com/admin/diycontent/index.html [运行时间：0.274067s][吞吐率：3.65req/s] [内存消耗：2,574.30kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'diycontent',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Diycontent->index[ D:\www\pingtuan_systerm\application\admin\controller\Diycontent.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\diycontent\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'placelist',
+  4 => 'placegroup',
+  5 => 'page',
+  6 => 'group_title',
+  7 => 'placeid',
+  8 => 'contentlist',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:04:07+08:00 ] 127.0.0.1 127.0.0.1 GET /public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png
+[ info ] local.zhiyun.com/public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png [运行时间：0.069673s][吞吐率：14.35req/s] [内存消耗：1,126.57kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'plugs',
+    2 => 'autocomplete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/public/plugs/autocomplete/css/jquery-ui.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'images',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/group/index.html
+[ info ] local.zhiyun.com/admin/group/index.html [运行时间：0.129439s][吞吐率：7.73req/s] [内存消耗：2,486.91kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Group->index[ D:\www\pingtuan_systerm\application\admin\controller\Group.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\group\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'list',
+  4 => 'page',
+  5 => 'type',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/user/index.html
+[ info ] local.zhiyun.com/admin/user/index.html [运行时间：0.131210s][吞吐率：7.62req/s] [内存消耗：2,491.46kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\www\pingtuan_systerm\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\user\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'user_type',
+  4 => 'list',
+  5 => 'page',
+  6 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\autoselect.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.034557s][吞吐率：28.94req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.044716s][吞吐率：22.36req/s] [内存消耗：1,125.92kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/autoinfo/getuserlist?id=
+[ info ] local.zhiyun.com/admin/autoinfo/getuserlist?id= [运行时间：0.118086s][吞吐率：8.47req/s] [内存消耗：2,031.52kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'autoinfo',
+    2 => 'getuserlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Autoinfo->getUserlist[ D:\www\pingtuan_systerm\application\admin\controller\Autoinfo.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png
+[ info ] local.zhiyun.com/public/plugs/autocomplete/css/images/ui-bg_flat_75_ffffff_40x100.png [运行时间：0.025809s][吞吐率：38.75req/s] [内存消耗：1,126.60kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'plugs',
+    2 => 'autocomplete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/public/plugs/autocomplete/css/jquery-ui.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'images',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/autoinfo/getuserlist?term=j
+[ info ] local.zhiyun.com/admin/autoinfo/getuserlist?term=j [运行时间：0.125843s][吞吐率：7.95req/s] [内存消耗：2,028.98kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'autoinfo',
+    2 => 'getuserlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'term' => 'j',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Autoinfo->getUserlist[ D:\www\pingtuan_systerm\application\admin\controller\Autoinfo.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/autoinfo/getuserlist?term=w
+[ info ] local.zhiyun.com/admin/autoinfo/getuserlist?term=w [运行时间：0.136154s][吞吐率：7.34req/s] [内存消耗：2,028.98kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'autoinfo',
+    2 => 'getuserlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'term' => 'w',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Autoinfo->getUserlist[ D:\www\pingtuan_systerm\application\admin\controller\Autoinfo.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/user/index.html?uid=&auto_uid=
+[ info ] local.zhiyun.com/admin/user/index.html?uid=&auto_uid= [运行时间：0.125032s][吞吐率：8.00req/s] [内存消耗：2,492.45kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '',
+  'auto_uid' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\www\pingtuan_systerm\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\user\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'user_type',
+  4 => 'list',
+  5 => 'page',
+  6 => 'searchbar',
+) ]
+[ info ] [ RUN ] app\common\widget\Form->show[ D:\www\pingtuan_systerm\application\common\widget\Form.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/common\view\default\form\autoselect.html [ array (
+  0 => 'type',
+  1 => 'field',
+  2 => 'value',
+  3 => 'size',
+  4 => 'title',
+  5 => 'option',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.035389s][吞吐率：28.26req/s] [内存消耗：1,125.99kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html?uid=&auto_uid=',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/images/default_avatar_middle.jpg
+[ info ] local.zhiyun.com/public/images/default_avatar_middle.jpg [运行时间：0.048090s][吞吐率：20.79req/s] [内存消耗：1,125.99kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'images',
+    2 => 'default_avatar_middle.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html?uid=&auto_uid=',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/autoinfo/getuserlist?id=
+[ info ] local.zhiyun.com/admin/autoinfo/getuserlist?id= [运行时间：0.204129s][吞吐率：4.90req/s] [内存消耗：2,031.52kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'autoinfo',
+    2 => 'getuserlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/user/index.html?uid=&auto_uid=',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Autoinfo->getUserlist[ D:\www\pingtuan_systerm\application\admin\controller\Autoinfo.php ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] local.zhiyun.com/admin/index/index.html [运行时间：0.296516s][吞吐率：3.37req/s] [内存消耗：2,214.12kb] [文件加载：59]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'top_menu',
+  4 => 'sub_menu',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T23:21:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main
+[ info ] local.zhiyun.com/admin/index/main [运行时间：0.306545s][吞吐率：3.26req/s] [内存消耗：2,132.52kb] [文件加载：58]
+[ info ] [ LANG ] D:\www\pingtuan_systerm\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fjv1da8te7sn3tgonm0gmv7ps7; __forward__=%2Fadmin%2Fmenu%2Findex.html',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\pingtuan_systerm\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\pingtuan_systerm/application/admin\view\index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT file

@@ -1,143 +1,144 @@
 {include file="admin@public/header" /}
- <style>
-	 .topactive{
-		 color:#fff;
-		 /*background-color: #333333;*/
-	 }
+<style>
+    .topactive {
+        color: #fff;
+        /*background-color: #333333;*/
+    }
 
- </style>
+</style>
 
 <header class="header">
-	<a href="index.html" class="logo">
-		智云拼团
-	</a>
-	<!-- Header Navbar: style can be found in header.less -->
-	<nav class="navbar navbar-static-top" role="navigation">
-		<!-- Sidebar toggle button-->
-		<a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</a>
-		<ul class="nav navbar-nav">
-		{volist name="top_menu" id="item"}
-		<li menu-id="{$item['id']}" class="topnav-item">
-			<a href="javascript:;">
-				<i class="icon icon-{$item['icon']|default='circle-blank'}"></i>
-				<span>{$item['title']}</span>
-			</a>
-		</li>
-		{/volist}
-		</ul>
+    <a href="index.html" class="logo">
+        智云拼团
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+        <ul class="nav navbar-nav">
+            {volist name="top_menu" id="item"}
+            <li menu-id="{$item['id']}" class="topnav-item">
+                <a href="javascript:;">
+                    <i class="icon icon-{$item['icon']|default='circle-blank'}"></i>
+                    <span>{$item['title']}</span>
+                </a>
+            </li>
+            {/volist}
+        </ul>
 
-		<div class="navbar-right">
-			<ul class="nav navbar-nav">
+        <div class="navbar-right">
+            <ul class="nav navbar-nav">
 
-				<li class="dropdown user user-menu">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="icon icon-user"></i>
-						<span> {:session('user_auth.username')}<i class="caret"></i></span>
-					</a>
-					<ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-						<li class="dropdown-header text-center">账户</li>
- 						<li class="divider"></li>
-						<li>
-							<a href="{:url('admin/user/editpwd')}" target="main">
-								<i class="icon  icon-user icon-fw pull-right"></i>
-								修改密码
-							</a>
- 							<a href="{:url('admin/index/logout')}">
-								<i class="icon icon-ban-circle  pull-right"></i>
-								退出后台
-							</a>
-						</li>
+                <li class="dropdown user user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon icon-user"></i>
+                        <span> {:session('user_auth.username')}<i class="caret"></i></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
+                        <li class="dropdown-header text-center">账户</li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="{:url('admin/user/editpwd')}" target="main">
+                                <i class="icon  icon-user icon-fw pull-right"></i>
+                                修改密码
+                            </a>
+                            <a href="{:url('admin/index/logout')}">
+                                <i class="icon icon-ban-circle  pull-right"></i>
+                                退出后台
+                            </a>
+                        </li>
 
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</nav>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 
 
-
 <div class="wrapper row-offcanvas row-offcanvas-left">
-	<!-- Left side column. contains the logo and sidebar -->
-	<aside class="left-side sidebar-offcanvas">
-		<!-- sidebar: style can be found in sidebar.less -->
-		<section class="sidebar">
-			<!-- Sidebar user panel -->
-			<div class="user-panel">
-				<div class="pull-left image">
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="left-side sidebar-offcanvas">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- Sidebar user panel -->
+            <div class="user-panel">
+                <div class="pull-left image">
 
-					<img src="__PUBLIC__/admin/img/avatar2.png" onerror="this.src='__PUBLIC__/mobile/image/logo_default.png'" class="img-circle" alt="头像" />
+                    <img src="__PUBLIC__/admin/img/avatar2.png"
+                         onerror="this.src='__PUBLIC__/mobile/image/logo_default.png'" class="img-circle" alt="头像"/>
 
-				</div>
-				<div class="pull-left info">
-					<p><a href="javascript:;"> {:session('user_auth.username')}</a></p>
-				</div>
-			</div>
-			<!-- search form -->
-			<!--<form action="/admin/product/index/" method="get" target="main" class="sidebar-form">-->
-				<!--<div class="input-group">-->
-					<!--<input type="text" name="title" class="form-control" placeholder="输入商品名"/>-->
-					<!--<span class="input-group-btn">-->
-                                        <!--<button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="icon icon-search"></i></button>-->
-                                    <!--</span>-->
-				<!--</div>-->
-			<!--</form>-->
-			{volist name='sub_menu'   id="item"}
-			<ul class="sidebar-menu"  id="sub-{$key}" {if $i!=1}style="display:none"{/if}>
-				{volist name="item" id="sitem"}
-				<li  class="nav-header" style=" color: #76829e;
+                </div>
+                <div class="pull-left info">
+                    <p><a href="javascript:;"> {:session('user_auth.username')}</a></p>
+                </div>
+            </div>
+            <!-- search form -->
+            <!--<form action="/admin/product/index/" method="get" target="main" class="sidebar-form">-->
+            <!--<div class="input-group">-->
+            <!--<input type="text" name="title" class="form-control" placeholder="输入商品名"/>-->
+            <!--<span class="input-group-btn">-->
+            <!--<button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="icon icon-search"></i></button>-->
+            <!--</span>-->
+            <!--</div>-->
+            <!--</form>-->
+            {volist name='sub_menu' id="item"}
+            <ul class="sidebar-menu" id="sub-{$key}" {if $i!=1}style="display:none"{/if}>
+                {volist name="item" id="sitem"}
+                <li class="nav-header" style=" color: #76829e;
 		 margin-left: 5px;">
-					{$key}
-				</li>
-				{volist name="sitem" id="mitem"}
-				<li class="sub-item">
-					<a href="{:url($mitem['url'])}" target="main">
-						<i class="icon icon-{$mitem['icon']|default='file'}"></i>
-						<span>{$mitem['title']}</span>
-					</a>
-				</li>
-				{/volist}
+                    {$key}
+                </li>
+                {volist name="sitem" id="mitem"}
+                <li class="sub-item">
+                    <a href="{:url($mitem['url'])}" target="main">
+                        <i class="icon icon-{$mitem['icon']|default='file'}"></i>
+                        <span>{$mitem['title']}</span>
+                    </a>
+                </li>
+                {/volist}
 
-				{/volist}
-			</ul>
-			{/volist}
+                {/volist}
+            </ul>
+            {/volist}
 
 
-		</section>
-		<!-- /.sidebar -->
-	</aside>
+        </section>
+        <!-- /.sidebar -->
+    </aside>
 
-	<aside class="right-side">
+    <aside class="right-side">
 
-		<!-- Main content -->
-		<section class="content">
+        <!-- Main content -->
+        <section class="content">
 
-			<iframe src="/admin/index/main"  id="contentframe" name="main" width="100%" height="100%"  scrolling="yes" frameborder="no"></iframe>
-			<!-- row end -->
-		</section><!-- /.content -->
+            <iframe src="/admin/index/main" id="contentframe" name="main" width="100%" height="100%" scrolling="yes"
+                    frameborder="no"></iframe>
+            <!-- row end -->
+        </section><!-- /.content -->
 
-	</aside><!-- /.right-side -->
+    </aside><!-- /.right-side -->
 
 </div>
 
 <script>
     $(document).ready(function () {
-		$(".topnav-item").click(function () {
-			$(this).addClass('topactive').siblings('li').removeClass('topactive');
-             var mid = $(this).attr('menu-id');
-            console.log('---'+mid);
-            $("#sub-"+mid).show().siblings("ul").hide();
+        $(".topnav-item").click(function () {
+            $(this).addClass('topactive').siblings('li').removeClass('topactive');
+            var mid = $(this).attr('menu-id');
+            console.log('---' + mid);
+            $("#sub-" + mid).show().siblings("ul").hide();
             return false;
         });
-		$(".sub-item").click(function () {
+        $(".sub-item").click(function () {
             $(this).addClass('active');
             $(this).siblings('li').removeClass('active');
         });
     });
 </script>
- {include file="admin@public/footer" /}
+{include file="admin@public/footer" /}

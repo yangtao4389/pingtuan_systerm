@@ -7,6 +7,13 @@
 浏览器将可以直接访问
 
 
-另外后台密码：
+
+
+假设配置的域名为:local.zhiyun.com
+该系统直接打开为：local.zhiyun.com
+
+
+后台管理为：local.zhiyun.com/admin
+账号密码：
 admin admin
 
