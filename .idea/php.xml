@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/core/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/core/vendor/workerman/gatewayclient" />
+      <path value="$PROJECT_DIR$/core/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/core/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/core/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/core/vendor/mikey179/vfsStream" />
+      <path value="$PROJECT_DIR$/core/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/core/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/core/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/core/vendor/theseer/fdomdocument" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/git" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/phpcpd" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/finder-facade" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/core/vendor/phploc/phploc" />
+      <path value="$PROJECT_DIR$/core/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/core/vendor/composer" />
+      <path value="$PROJECT_DIR$/core/vendor/overtrue/socialite" />
+      <path value="$PROJECT_DIR$/core/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/core/vendor/overtrue/wechat" />
+      <path value="$PROJECT_DIR$/core/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/core/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/core/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/core/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/core/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/core/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/core/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/core/vendor/johnkary/phpunit-speedtrap" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/core/vendor/monolog/monolog" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/core/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

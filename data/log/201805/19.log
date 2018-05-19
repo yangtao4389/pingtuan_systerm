@@ -1,0 +1,430 @@
+---------------------------------------------------------------
+[ 2018-05-19T19:52:08+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] local.zhiyun.com/ [运行时间：0.118151s][吞吐率：8.46req/s] [内存消耗：2,422.03kb] [文件加载：59]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\zhiyunzhushou\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\zhiyunzhushou/application/index\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:08+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.035971s][吞吐率：27.80req/s] [内存消耗：1,122.86kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:22+08:00 ] 127.0.0.1 127.0.0.1 GET /func
+[ info ] local.zhiyun.com/func [运行时间：0.060364s][吞吐率：16.57req/s] [内存消耗：1,584.39kb] [文件加载：50]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'func',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->func[ D:\www\zhiyunzhushou\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\zhiyunzhushou/application/index\view\index\func.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+  4 => 'funlist',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:23+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.034557s][吞吐率：28.94req/s] [内存消耗：1,122.84kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/func',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:24+08:00 ] 127.0.0.1 127.0.0.1 GET /download
+[ info ] local.zhiyun.com/download [运行时间：0.047991s][吞吐率：20.84req/s] [内存消耗：1,545.19kb] [文件加载：50]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'download',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/func',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->download[ D:\www\zhiyunzhushou\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\zhiyunzhushou/application/index\view\index\download.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:24+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.032976s][吞吐率：30.32req/s] [内存消耗：1,122.93kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/download',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:27+08:00 ] 127.0.0.1 127.0.0.1 GET /func
+[ info ] local.zhiyun.com/func [运行时间：0.033826s][吞吐率：29.56req/s] [内存消耗：1,442.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'func',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/download',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->func[ D:\www\zhiyunzhushou\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\zhiyunzhushou/application/index\view\index\func.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+  4 => 'funlist',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.034445s][吞吐率：29.03req/s] [内存消耗：1,122.84kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/func',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:32+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] local.zhiyun.com/ [运行时间：0.030928s][吞吐率：32.33req/s] [内存消耗：1,415.82kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/func',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\zhiyunzhushou\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\zhiyunzhushou/application/index\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:52:32+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.028156s][吞吐率：35.52req/s] [内存消耗：1,122.86kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:56:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] local.zhiyun.com/ [运行时间：0.054123s][吞吐率：18.48req/s] [内存消耗：1,415.62kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\zhiyunzhushou\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\zhiyunzhushou/application/index\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:56:33+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.048207s][吞吐率：20.74req/s] [内存消耗：1,122.86kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:57:47+08:00 ] 127.0.0.1 127.0.0.1 GET /func
+[ info ] local.zhiyun.com/func [运行时间：0.032668s][吞吐率：30.61req/s] [内存消耗：1,442.15kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'func',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->func[ D:\www\zhiyunzhushou\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\zhiyunzhushou/application/index\view\index\func.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'meta_title',
+  3 => 'pageflag',
+  4 => 'funlist',
+) ]
+[ info ] [ LOG ] INIT file
+---------------------------------------------------------------
+[ 2018-05-19T19:57:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/home/assets/css/roboto-webfont.css
+[ info ] local.zhiyun.com/public/home/assets/css/roboto-webfont.css [运行时间：0.032663s][吞吐率：30.62req/s] [内存消耗：1,122.84kb] [文件加载：38]
+[ info ] [ LANG ] D:\www\zhiyunzhushou\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'home',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.zhiyun.com/func',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'local.zhiyun.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'roboto-webfont.css',
+)
+[ info ] [ LOG ] INIT file

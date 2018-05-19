@@ -1,0 +1,12 @@
+使用该系统，可以采用phplearn环境。
+
+首先，将doc目录中的 zhiyunzhushou.sql  导入到mysql中  可以在phplearn中直接配置
+
+然后，配置本地的域名执行最外层的index.php 所在的文件夹，该文件为入口文件。
+
+浏览器将可以直接访问
+
+
+另外后台密码：
+admin admin
+

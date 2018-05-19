@@ -1,0 +1,35 @@
+{extend name="public/base"/}
+{block name="body"}
+
+<form class="layui-form" action="/admin/channel/add">
+	<div class="layui-form-item">
+		<label class="layui-form-label">上级类别</label>
+		<div class="layui-form-mid">
+	          {if $pid>0}{$pinfo['title']}{else/}顶级列表{/if}
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">类别名</label>
+		<div class="layui-input-block">
+			<input type="text" name="title" lay-verify="required"    class="layui-input">
+		</div>
+	</div>
+ 
+	<div class="layui-form-item">
+		<label class="layui-form-label">排序</label>
+		<div class="layui-input-block">
+			<input type="text" name="sort_num" value="0"   class="layui-input">
+			<div class="layui-form-mid layui-word-aux">默认0正序排列</div>
+		</div>
+	</div>
+
+	<div class="layui-form-item">
+		<input type="hidden" value="{$pid}" name="pid">
+		<div class="layui-input-block">
+			<button class="layui-btn" lay-submit=""  lay-filter="form1">立即提交</button>
+			<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+		</div>
+	</div>
+</form>
+
+{/block}

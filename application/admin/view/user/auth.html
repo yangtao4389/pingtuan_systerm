@@ -1,0 +1,48 @@
+{include file="admin@public/header" /}
+{block name="body"}
+
+
+<div class="row">
+	<div class="col-lg-12">
+		<section class="panel">
+ 			<div class="panel-body">
+
+				<form method="post" class="form form-horizontal">
+					<table class="table table-striped">
+						<thead>
+						<tr>
+							<th class="col-lg-2 text-right">模块</th>
+							<th>分组</th>
+						</tr>
+						</thead>
+						<tbody>
+						{volist name="list" id="group"}
+						<tr>
+							<td class="info col-lg-2 text-right">{:config('USER_GROUP_TYPE')[$key]}</td>
+							<td class="col-lg-10 text-left">
+								{volist name="group" id="item"}
+								<div class="radio radio-nice radio-inline">
+									<input type="radio" name="{$item['module']}" value="{$item['id']}" id="{$item['module']}-{$item['id']}" {if condition="in_array($item['id'],$auth_list)"}checked{/if} />
+									<label for="{$item['module']}-{$item['id']}">{$item['title']}</label>
+								</div>
+								{/volist}
+							</td>
+						</tr>
+						{/volist}
+						</tbody>
+					</table>
+					<div class="form-group">
+						<div class="col-lg-offset-4 col-sm-offset-4 col-lg-10">
+							<input type="hidden" name="uid" value="{$uid}">
+							<button type="submit" class="btn btn-success submit-btn ajax-post" target-form="form">确认提交</button>
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</section>
+	</div>
+</div>
+
+{/block}
+{include file="admin@public/footer" /}

@@ -1,0 +1,50 @@
+
+
+{include file="admin@public/header" /}
+
+{include file="admin@public/editcss" /}
+<div class="row">
+	<div class="col-lg-12">
+		<section class="panel">
+			<!--<header class="panel-heading">-->
+			<!--{$meta_title}-->
+			<!--</header>-->
+			<div class="panel-body">
+				<form method="post" class="form form-horizontal">
+					{if !isset($info)}
+						{assign name="info" value="" /}
+ 					{/if}
+
+ 					{volist name="keyList" id="field"}
+
+					{if $field['type'] eq 'hidden'}
+					<input type="hidden" name="{$field['name']}" value="{$info[$field['name']]|default=''}"/>
+					{else/}
+					<div class="form-group">
+						<label class="col-lg-2 col-sm-2 control-label">{$field['title']|htmlspecialchars}</label>
+						<div class="col-lg-10 col-sm-10">
+							{:widget('common/Form/show',array($field,$info))}
+							<div class="help-block">{$field['help']|default=''}</div>
+						</div>
+					</div>
+					{/if}
+					{/volist}
+
+					<div class="form-group">
+						<div class="col-lg-offset-4 col-lg-8 col-sm-offset-4 col-sm-8">
+							<input type="hidden" name="id" value="{$info['id']|default=''}">
+							<button class="btn btn-success submit-btn ajax-post" type="submit" target-form="form-horizontal">确 定</button>
+
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</section>
+	</div>
+</div>
+
+
+
+{include file="admin@public/footer" /}
+

@@ -1,0 +1,38 @@
+
+{if is_array($value) /}
+<input type="text" value="{$value|implode=',',###}" id="{$field|md5}" name="{$field}"      />
+{else /}
+<input type="text" value="{$value}" id="{$field|md5}" name="{$field}"    />
+{/if}
+
+<script>
+    $(document).ready(function() {
+        var elt = $("#{$field|md5}");
+        elt.tagsinput({
+            itemValue: 'value',
+            itemText: 'text',
+            typeaheadjs: {
+                name: '{$field|md5}',
+                displayKey: 'text',
+                source: function (query, syncResults, asyncResults) {
+                    $.get('{$option}',{'op':'getinfo','key':query}, function (data) {
+                        asyncResults(data);
+                    });
+                }
+            }
+        });
+
+$.get('{$option}',{'op':'setinfo','key':elt.val()},function (data) {
+    for(var i=0;i<data.length;i++){
+        elt.tagsinput('add',data[i]);
+    }
+});
+    });
+    //http://www.jqueryscript.net/demo/Nice-Tags-Manager-Plugin-with-jQuery-Bootstrap-Bootstrap-Tags-Input/examples/
+  //https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/
+    //用自定义时，去掉data-role="tagsinput" 否则不起作用
+
+  //$(elt).tagsinput('add', { "value": 10, "text": "Beijing"     , "continent": "Asia"      });
+  //$('input').tagsinput('add', { "value": 13, "text": "Cairo"       , "continent": "Africa"    });
+
+</script>

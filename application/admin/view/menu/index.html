@@ -1,0 +1,108 @@
+{extend name="public/base"/}
+{block name="style"}
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/bootstrap-editable.css">
+{/block}
+{block name="body"}
+<div class="row">
+<div class="col-lg-12 col-sm-12">
+
+    <div class="pull-right">
+
+        <a class="btn btn-primary" href="{:url('add',array('pid'=>input('get.pid',0)))}">新 增</a>
+
+    </div>
+</div>
+</div>
+<div class="row">
+
+    <div class="col-lg-12">
+        <section class="panel">
+
+            <div class="panel-body">
+                <form class="ids">
+                    <div class="table-responsive clearfix">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+
+                                <th>ID</th>
+                                <th>名称</th>
+
+                                <th>分组</th>
+                                <th>URL</th>
+                                <th>排序</th>
+                                <th>隐藏</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            {notempty name="list"}
+                            {volist name="list" id="menu"}
+                            <tr>
+                                <td>{$menu.id}</td>
+                                <td>
+                                    {$menu['level_show']}
+                                    <a href="#" class="editable editable-click" data-id="{$menu['id']}" data-name="title" data-type="text"
+                                       data-pk="{$menu['id']}" data-url="{:url('editable')}">{$menu['title']}</a>
+                                    <a class="add-sub-cate" title="添加子分类" href="{:url('add?pid='.$menu['id'])}">
+                                        <i class="icon icon-plus"></i>
+                                    </a>
+                                </td>
+
+                                <td>{$menu.group}</td>
+                                <td>{$menu.url}</td>
+                                <td><a href="#" class="editable editable-click" data-id="{$menu['id']}" data-name="sort" data-type="text" data-pk="{$menu['id']}" data-url="{:url('editable')}">{$menu['sort']}</a></td>
+
+                                <td>
+                                    <a href="#" data-type="select" data-pk="{$menu['id']}"
+                                       data-url="{:url('edittable')}" select-val="{$menu['hide']}" data-name="hide" data-title="隐藏"
+                                       class="edit_hide" >
+                                    </a>
+
+
+                                </td>
+                                <td>
+                                    <a title="编辑" href="{:url('edit?id='.$menu['id'])}">编辑</a>
+                                    <a class="confirm ajax-get" title="删除" href="{:url('del?id='.$menu['id'])}">删除</a>
+                                </td>
+                            </tr>
+                            {/volist}
+                            {else/}
+                            <td colspan="10" class="text-center"> aOh! 暂时还没有内容!</td>
+                            {/notempty}
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>
+
+{/block}
+{block name="script"}
+<script type="text/javascript" src="__PUBLIC__/js/bootstrap-editable.min.js"></script>
+<script type="text/javascript">
+$(function () {
+     $('.editable').editable();
+    $('.edit_hide').each(function (index,element) {
+        $(this).editable({
+            value:$(this).attr('select-val'),
+            source: [
+                {value: 0, text: '否'},
+                {value: 1, text: '是'}
+            ],
+            validate: function (value) {
+                if(value==null){
+                    return '请选择';
+                }
+
+            }
+        });
+    });
+
+});
+
+</script>
+{/block}

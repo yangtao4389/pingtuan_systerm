@@ -1,0 +1,38 @@
+
+
+<script>
+    var {$el}_myChart = echarts.init(document.getElementById('{$el}'));
+    var {$el}_option = {
+        title: {
+            text: '{$title}'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        legend: {
+            data:{$legend_data}
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        },
+        xAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: {$xAxis_data}
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: {$series}
+
+    };
+    {$el}_myChart.setOption({$el}_option);
+</script>

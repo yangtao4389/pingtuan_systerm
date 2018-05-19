@@ -1,0 +1,19 @@
+<div class="form-inline">
+    <form method="get"  role="form">
+
+        {volist name="searchbar" id="field"}
+        {if $field['type'] eq 'hidden'}
+        <input type="hidden" name="{$field['name']}" value="{$param[$field['name']]|default=''}"/>
+        {else/}
+        <div class="form-group">
+            <!--<label class="control-label">{$field['title']|htmlspecialchars}</label>-->
+            {:widget('common/Form/show',array($field,$param))}
+        </div>
+        {/if}
+        {/volist}
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">搜索</button>
+        </div>
+
+    </form>
+</div>

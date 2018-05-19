@@ -1,0 +1,24 @@
+<div class="input-group">
+    <input type="hidden" id="{$field}" name="{$field}" value="{$value}" />
+    <input type="text" class="form-control" name="auto_{$field}" id="auto_{$field}" autocomplete="off" value=""
+           placeholder="{$title}"
+            />
+</div>
+<script>
+    $(document).ready(function() {
+          var fid = "{$field}";
+          //若是编辑初始化
+        $.getJSON('{$option}',{ 'id':'{$value}'},function (data) {
+           $('#auto_'+fid).val(data.value);
+        });
+        $('#auto_'+fid).autocomplete({
+            source:'{$option}',
+             select: function( event, ui ) {
+                $("#"+fid).val(ui.item.id);
+               console.log(ui.item);
+                //log( "Selected: " + ui.item.value + " aka " + ui.item.id );
+            }
+        });
+
+    });
+</script>

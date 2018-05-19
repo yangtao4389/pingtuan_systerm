@@ -1,0 +1,44 @@
+{extend name="public/base"/}
+{block name="body"}
+<div class="container">
+
+
+<style>
+   .table .title{
+       background-color: #d0e9c6;
+   }
+</style>
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12" style="margin-top:10px;">
+    <table class="table table-bordered">
+         <thead>
+        <tr>
+            <th width="200">功能</th>
+            <th>微信端</th>
+            <th>安卓</th>
+            <th>IOS</th>
+         </tr>
+        </thead>
+        <tbody>
+        {volist name="funlist" id="item"}
+        <tr class="title">
+            <td colspan="4">{$key}</td>
+         </tr>
+        {volist name="item" id="sitem"}
+        <tr>
+            <td>{$sitem}</td>
+            <td><img src="__PUBLIC__/home/assets/images/ok.png"> </td>
+            <td><img src="__PUBLIC__/home/assets/images/ok.png"> </td>
+            <td><img src="__PUBLIC__/home/assets/images/ok.png"> </td>
+        </tr>
+        {/volist}
+        {/volist}
+
+        </tbody>
+    </table>
+        </div>
+    </div>
+</div>
+
+
+{/block}
