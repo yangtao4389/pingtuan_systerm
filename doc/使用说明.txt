@@ -59,11 +59,41 @@ D:\www\pingtuan_systerm\application\admin\controller\Diytag.php
  $this->setMeta('添加编辑标签');   设置标题名
 
 
-
-
 D:\www\pingtuan_systerm\public\js\core.js
 里面有说 对于有些css样式 执行异步提交
 
+
+
+20180522 新增
+
+从入口文件，开始看
+
+thinkphp中支持在php文件和html中用模板语言访问同一个函数
+     config("view_replace_str")["__PUBLIC__"];   php文件中执行该函数得到值
+     {:config("view_replace_str")["__PUBLIC__"]}     模板语言中也可以直接执行得到值
+
+
+而该系统是怎么读取数据库中的配置，然后也写入config.php中的呢？最起码可以让config这个函数识别到这些配置
+回答：
+    pingtuan_systerm\application\common\controller\Base.php
+    这个类里面初始化过程中执行了下面这几句。
+    先去缓存寻找是否存在db_config_data。如果有，则忽略，没有，就从model('Config')中读取。
+    读取到的配置写入缓存。
+    同时，config函数将配置写入config中
+		$config = cache('db_config_data');
+
+		if (!$config) {
+			$config = model('Config')->lists();
+			cache('db_config_data', $config);
+		}
+		config($config);
+
+又是模板语言：
+     <li {if $pageflag=="index"} class="active" {/if}><a href="/">首页</a></li>
+    $pageflag 为视图中定义好的assign
+
+
+看到首页的展示
 
 
 

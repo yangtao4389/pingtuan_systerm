@@ -158,7 +158,7 @@ INSERT INTO `zhi_config` VALUES (14, 'web_site_title', 'text', '网站标题', 1
 INSERT INTO `zhi_config` VALUES (15, 'web_site_url', 'text', '网站URL', 1, '', '网站网址', '', 1378898976, 1379235274, 1, 'http://tp5.zhiyunzhushou.com', 1);
 INSERT INTO `zhi_config` VALUES (16, 'web_site_description', 'textarea', '网站描述', 1, '', '网站搜索引擎描述', '', 1378898976, 1379235841, 1, '拼团系统', 3);
 INSERT INTO `zhi_config` VALUES (17, 'web_site_keyword', 'textarea', '网站关键字', 1, '', '', '', 1378898976, 1511857830, 1, '拼团系统', 6);
-INSERT INTO `zhi_config` VALUES (19, 'web_site_icp', 'text', '网站备案号', 1, '', '', '', 1378900335, 1511857811, 1, '鲁ICP备17056316号-1	', 7);
+INSERT INTO `zhi_config` VALUES (19, 'web_site_icp', 'text', '网站备案号', 1, '', '', '', 1378900335, 1511857811, 1, '川ICP备110110号-1	', 7);
 INSERT INTO `zhi_config` VALUES (23, 'user_group_type', 'textarea', '会员分组类别', 99, '', '', '', 1449196835, 1511415858, 1, 'admin:后台管理员\r\nmember:普通会员', 1);
 INSERT INTO `zhi_config` VALUES (67, 'cfg_appdown_image', 'image', 'App预览图', 1, '', '', '', 1515395213, 1515395213, 1, '', 0);
 INSERT INTO `zhi_config` VALUES (65, 'cfg_wechart_qrcode', 'image', '微信二维码', 1, '', '', '', 1513214597, 1513214597, 1, '74', 0);

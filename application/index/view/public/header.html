@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{$meta_title}-微信版，手机APP版</title>
     <meta name="keywords" content="开源多商户拼团系统,微信拼团系统,手机APP拼团系统">
-    <meta name="description" content="智云多商户开源拼团系统,开源拼团系统,微信拼团系统开源,App端开源拼团系统，开源拼团系统">
+    <meta name="description" content="多商户开源拼团系统,开源拼团系统,微信拼团系统开源,App端开源拼团系统，开源拼团系统">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -27,14 +27,14 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
+                <!--<span class="sr-only">Toggle navigation</span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
             <a class="navbar-brand" href="/">
-                <img src="__PUBLIC__/home/assets/images/logo.png" alt="Logo" />
+                <img src={:config("view_replace_str")["__PUBLIC__"]}/home/assets/images/logo.png alt="Logo" />
             </a>
         </div>
 
@@ -47,7 +47,7 @@
                 <li {if $pageflag=="func"} class="active" {/if}><a href="/func">功能列表</a></li>
                 <li {if $pageflag=="download"} class="active" {/if}><a href="/download">源码下载</a></li>
 
-                <li class="login"><a href="#">QQ:304455977</a></li>
+                <li class="login"><a href="#">登录</a></li>
             </ul>
 
         </div>

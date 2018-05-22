@@ -10,17 +10,18 @@ class Base extends \think\Controller {
 	protected $action;
 
 	public function _initialize() {
-	    echo '读取配置文件';
-// 		/* 读取数据库中的配置 */
-//		$config = cache('db_config_data');
-//		if (!$config) {
-//			$config = model('Config')->lists();
-//			cache('db_config_data', $config);
-//		}
-//		config($config);
-//		//获取request信息
-//		$this->requestInfo();
-//		$this->setMeta(ACTION_NAME);
+ 		/* 读取数据库中的配置 */
+		$config = cache('db_config_data');
+
+		if (!$config) {
+			$config = model('Config')->lists();
+			cache('db_config_data', $config);
+		}
+		config($config);
+
+		//获取request信息
+		$this->requestInfo();
+		$this->setMeta(ACTION_NAME);
 	}
 
 	public function verify($id = 1) {

@@ -1,6 +1,12 @@
 使用该系统，可以采用phplearn环境。
 
+
 首先，将doc目录中的 zhiyunzhushou.sql  导入到mysql中  可以在phplearn中直接配置
+
+先将data目录下面的cache清空
+然后去pingtuan_systerm\application\database.php 中设置数据库 密码 以及数据库名
+注意，该数据库建议用本地，如果提交代码到公网环境，很容易被人黑进数据库
+
 
 然后，配置本地的域名执行最外层的index.php 所在的文件夹，该文件为入口文件。
 
@@ -9,11 +15,11 @@
 
 
 
-假设配置的域名为:local.zhiyun.com
-该系统直接打开为：local.zhiyun.com
+假设配置的域名为:local.pintuan.com
+该系统直接打开为：local.pintuan.com
 
 
-后台管理为：local.zhiyun.com/admin
+后台管理为：local.pintuan.com/admin
 账号密码：
 admin admin
 

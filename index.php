@@ -14,4 +14,5 @@ define('VENDOR_PATH', ROOT_PATH . 'core' . DIRECTORY_SEPARATOR . 'vendor' . DIRE
 define ( 'RUNTIME_PATH', __DIR__ . '/data/' );
 
 // 加载框架引导文件
+// echo __DIR__;  F:\www\pingtuan_systerm
 require __DIR__ . '/core/start.php';

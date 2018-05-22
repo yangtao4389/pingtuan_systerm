@@ -14,8 +14,11 @@ class Index extends Base
 {
     public function index()
     {
-
-        $this->setMeta('智云多商户拼团系统');
+//        $config = model('Config')->lists();  //这个会自动去调用model下面的Config.php  具体是哪个model，都可以自己去定义，因为thinkphp是自动去搜寻然后加载的类名
+//        echo var_dump($config);
+//        print_r(config("view_replace_str")["__PUBLIC__"]);
+        $this->setMeta('拼团系统');
+        $this->assign('pageflag','index');
         return $this->fetch();
     }
      public function lesson($id1,$id2)
